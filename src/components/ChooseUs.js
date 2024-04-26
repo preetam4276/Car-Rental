@@ -5,8 +5,8 @@ import src3 from '../assests/whychooseus_hand.png';
 
 const ChooseUs = () => {
   return (
-    <div className='flex justify-center items-center'>
-      <div className='flex flex-col md:flex-row items-center gap-8 max-w-6xl p-6 md:p-10'>
+    <div className='flex justify-center items-center '>
+      <div className='flex flex-col md:flex-row items-center md:gap-[180px] max-w-6xl p-6 md:p-10'>
         <div className='flex flex-col md:w-1/2 max-w-md'>
           <p className='text-lg md:text-xl text-center md:text-left font-bold'>Why Choose Us</p>
           <div className='text-2xl md:text-4xl text-center md:text-left font-bold font-sans my-2'>
