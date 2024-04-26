@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { search1 } from "../features/PickSlice";
+import { useNavigate } from 'react-router-dom';
 
 const PickCar = () => {
   const dispatch = useDispatch();
@@ -17,6 +18,12 @@ const PickCar = () => {
 
   const solve = (id) => {
     dispatch(search1(id));
+  };
+  const navigate = useNavigate();
+
+  const handle = () => {
+   
+    navigate('/Booking');
   };
 
   useEffect(() => {
@@ -121,7 +128,7 @@ const PickCar = () => {
           </div>
           
           <div className="flex justify-center mt-4">
-            <button className="text-base bg-[#FA4226] px-4 py-2 w-[250px] h-[50px] hover:shadow-xl transition-shadow ease-in-out duration-300 rounded-sm font-sans text-white font-semibold">
+            <button onClick={handle} className="text-base bg-[#FA4226] px-4 py-2 w-[250px] h-[50px] hover:shadow-xl transition-shadow ease-in-out duration-300 rounded-sm font-sans text-white font-semibold">
               RESERVE NOW
             </button>
           </div>
