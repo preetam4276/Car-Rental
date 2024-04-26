@@ -45,39 +45,39 @@ const PickCar = () => {
       <div className="flex flex-col justify-center items-center">
         <p className="text-[24px] font-semibold">Vehicle Models</p>
         <p className="text-[42px] font-bold">Our rental fleet</p>
-        <p className="text-[#706F7B] mt-4">
+        <p className="text-[#706F7B] mt-4 text-center">
           Choose from a variety of our amazing vehicles to rent for your next
           adventure or business trip.
         </p>
       </div>
-      <div className="flex sm:flex-wrap sm:flex-row flex-col justify-around items-center mt-4">
-        <div className="flex flex-col gap-[10px]">
+      <div className="flex sm:flex-wrap sm:flex-row flex-col justify-around items-center mt-4  ">
+        <div className="flex flex-col gap-[10px] ">
           <button
-            className=" w-full h-[50px] border font-semibold  hover:bg-[#FF4D30] bg-[#E9E9E9] focus:bg-[#FF4D30]"
+            className=" md:w-[240px]  w-[350px] h-[50px] ml-6 mr-4 font-semibold  hover:bg-[#FF4D30] bg-[#E9E9E9] focus:bg-[#FF4D30]"
             onClick={() => solve(3)}
           >
             kia seltos
           </button>
           <button
-            className=" md:w-[240px]  w-[400px] h-[50px]  font-semibold hover:bg-[#FF4D30] bg-[#E9E9E9] focus:bg-[#FF4D30]"
+            className=" md:w-[240px]  w-[350px] h-[50px] ml-6 mr-4 font-semibold hover:bg-[#FF4D30] bg-[#E9E9E9] focus:bg-[#FF4D30]"
             onClick={() => solve(2)}
           >
             Innova{" "}
           </button>
           <button
-            className="  md:w-[240px]  w-[400px]  h-[50px]  font-semibold hover:bg-[#FF4D30] bg-[#E9E9E9] focus:bg-[#FF4D30]"
+            className="  md:w-[240px] w-[350px] h-[50px] ml-6 mr-4 font-semibold hover:bg-[#FF4D30] bg-[#E9E9E9] focus:bg-[#FF4D30]"
             onClick={() => solve(4)}
           >
             Swift Desire
           </button>
           <button
-            className="  md:w-[240px]  w-[400px]  h-[50px]  font-semibold hover:bg-[#FF4D30] bg-[#E9E9E9] focus:bg-[#FF4D30] "
+            className="  md:w-[240px]  w-[350px] h-[50px] ml-6 mr-4  font-semibold hover:bg-[#FF4D30] bg-[#E9E9E9] focus:bg-[#FF4D30] "
             onClick={() => solve(5)}
           >
             Swift Vdi
           </button>
           <button
-            className="  md:w-[240px]  w-[400px]  h-[50px]  font-semibold hover:bg-[#FF4D30] bg-[#E9E9E9] focus:bg-[#FF4D30]"
+            className="  md:w-[240px]  w-[350px] h-[50px] ml-6 mr-4 font-semibold hover:bg-[#FF4D30] bg-[#E9E9E9] focus:bg-[#FF4D30]"
             onClick={() => solve(1)}
           >
             Ertiga
