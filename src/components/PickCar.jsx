@@ -52,25 +52,25 @@ const PickCar = () => {
             kia seltos
           </button>
           <button
-            className=" md:w-[240px]  w-[400px] h-[50px] border font-semibold hover:bg-[#FF4D30] bg-[#E9E9E9] focus:bg-[#FF4D30]"
+            className=" md:w-[240px]  w-[400px] h-[50px]  font-semibold hover:bg-[#FF4D30] bg-[#E9E9E9] focus:bg-[#FF4D30]"
             onClick={() => solve(2)}
           >
             Innova{" "}
           </button>
           <button
-            className="  md:w-[240px]  w-[400px]  h-[50px] border font-semibold hover:bg-[#FF4D30] bg-[#E9E9E9] focus:bg-[#FF4D30]"
+            className="  md:w-[240px]  w-[400px]  h-[50px]  font-semibold hover:bg-[#FF4D30] bg-[#E9E9E9] focus:bg-[#FF4D30]"
             onClick={() => solve(4)}
           >
             Swift Desire
           </button>
           <button
-            className="  md:w-[240px]  w-[400px]  h-[50px] border font-semibold hover:bg-[#FF4D30] bg-[#E9E9E9] focus:bg-[#FF4D30] "
+            className="  md:w-[240px]  w-[400px]  h-[50px]  font-semibold hover:bg-[#FF4D30] bg-[#E9E9E9] focus:bg-[#FF4D30] "
             onClick={() => solve(5)}
           >
             Swift Vdi
           </button>
           <button
-            className="  md:w-[240px]  w-[400px]  h-[50px] border font-semibold hover:bg-[#FF4D30] bg-[#E9E9E9] focus:bg-[#FF4D30]"
+            className="  md:w-[240px]  w-[400px]  h-[50px]  font-semibold hover:bg-[#FF4D30] bg-[#E9E9E9] focus:bg-[#FF4D30]"
             onClick={() => solve(1)}
           >
             Ertiga
