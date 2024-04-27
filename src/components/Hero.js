@@ -2,7 +2,19 @@ import React from "react";
 import src1 from "../assests/maincar.png";
 import src2 from "../assests/bg-car.png";
 import { IconChevronRight, IconCircleCheck } from "@tabler/icons-react";
+import { useNavigate } from 'react-router-dom';
+
 const Hero = () => {
+  const navigate = useNavigate();
+
+  const handle = (e) => {
+   
+    navigate('/Models');
+  };
+  const handle2 = (e) => {
+   
+    navigate('/About');
+  };
   return (
     <div>
       <img src={src2} className="absolute top-0 right-0 z-[-1] sm:block hidden"></img>
@@ -18,10 +30,10 @@ const Hero = () => {
           </p>
           <p className=" text-base sm:text-lg"> flexible pick-up options and much more.</p>
           <div className="flex flex-col gap-4 mt-8 sm:flex-row sm:justify-start">
-            <button className="flex items-center justify-center w-full px-6 py-3 text-base font-semibold text-white bg-[#FA4226] rounded-sm hover:shadow-xl transition-shadow ease-in-out duration-300 sm:w-auto">
+            <button onClick={handle} className="flex items-center justify-center w-full px-6 py-3 text-base font-semibold text-white bg-[#FA4226] rounded-sm hover:shadow-xl transition-shadow ease-in-out duration-300 sm:w-auto">
               Book Ride <IconCircleCheck />
             </button>
-            <button className="flex items-center justify-center w-full px-6 py-3 text-base font-semibold text-white bg-black rounded-sm hover:bg-white hover:text-black hover:border-2 hover:border-solid hover:border-black transition-all ease-in-out duration-300 sm:w-auto">
+            <button onClick={handle2} className="flex items-center justify-center w-full px-6 py-3 text-base font-semibold text-white bg-black rounded-sm hover:bg-white hover:text-black hover:border-2 hover:border-solid hover:border-black transition-all ease-in-out duration-300 sm:w-auto">
               Learn More <IconChevronRight />
             </button>
           </div>

@@ -88,8 +88,8 @@ const PickCar = () => {
         </div>
         <div className="w-full sm:w-auto flex flex-col justify-center items-center p-4">
           <div className="w-[250px] h-[50px] bg-[#FF4D30] flex justify-center items-center">
-            <p className="font-extrabold text-white text-[30px]">${price}</p>
-            <span className="text-white"> / rent per day</span>
+            <p className="font-extrabold text-white text-[30px]">{price}</p>
+            <span className="text-white"> /  per day</span>
           </div>
           <div>
           <table className="w-[250px] ">

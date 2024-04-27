@@ -10,7 +10,7 @@ const Contact1 = () => {
         className="z-[-1] absolute top-0 left-0 right-0 w-full opacity-10"
         alt="Background"
       />
-        <div className="relative flex justify-center items-center">
+        <div className=" flex justify-center items-center">
       
       <div className="flex flex-col lg:flex-row mt-[180px]  sm:mt-[300px] lg:mt-[350px]  w-full lg:w-[1280px] gap-8 lg:gap-20 h-auto lg:h-[733px] justify-between items-center p-6 lg:p-20">
         <div className="flex flex-col gap-6 max-w-lg mx-auto mb-8 lg:mb-0">
